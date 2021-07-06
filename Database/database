@@ -1,0 +1,30 @@
+                                       DataBase Tables
+
+username=rohan
+password =6756
+
+
+1)addmision table:-
+
+columns :-> formno(int primary key),date(varchar(15)),mem_id(varchar(30)),mname(varchar(30)),email_id(varchar(30)),memadd(varchar(30)),cntno(varchar(10)),totalfee(varchar(30)),gender(varchar(30)),package(varchar(30)),batchtime(varchar(30)),fee_type(varchar(30))
+
+
+2)addmision1 table:-
+
+create table addmision1(formno int primary key,mem_id varchar(30),mname varchar(30),email_id varchar(30),memadd varchar(30),cntno varchar(10),totalfee varchar(30),gender varchar(30),package varchar(30),batchtime varchar(30),fee_type varchar(30),paidfee varchar(30));
+
+3)enquiry table:-
+
+create table enquiry(enqury_no int primary key,date varchar(30),mname varchar(30),memail varchar(30),madd varchar(30),contact_no varchar(10),refference varchar(30),package varchar(30),package varchar(30),bath_time varchar(30));
+
+
+4)receipt table:-
+
+create table receipt(formno int primary key,mem_id varchar(30),mname varchar(30),email_id varchar(30),memadd varchar(30),cntno varchar(10),totalfee varchar(30),gender varchar(30),package varchar(30),fee_type varchar(30),paidfee varchar(30));
+
+
+5)trainer_record:-
+create table trainer_record(tid int primary key,tname varchar(30),temail varchar(30),taddr varchar(30),tcntno varchar(30),gen varchar(30),cid varchar(30),faculty varchar(30));
+
+
+***Some tables are remaining to list out***
